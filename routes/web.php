@@ -1,5 +1,11 @@
 <?php
 
+// TEMPORARY. 
+// We'll replace the elixir() helper function with this one.
+require ('mix.php');
+
+mix('js/app.js');
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
